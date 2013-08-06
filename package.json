@@ -1,0 +1,42 @@
+{
+  "name": "wtime",
+  "description": "what time is it?",
+  "version": "0.1.0",
+  "homepage": "https://github.com/guilhermefarias/wtime",
+  "author": {
+    "name": "Guilherme Farias",
+    "email": "guilherme@guiky.com.br",
+    "url": "www.guilhermefarias.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guilhermefarias/wtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guilhermefarias/wtime/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/guilhermefarias/wtime/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/wtime",
+  "engines": {
+    "node": ">=0.7.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "wtime" : "lib/wtime.js"
+  }
+}
